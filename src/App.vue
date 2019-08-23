@@ -1,11 +1,14 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
+    
     <main-tab></main-tab>
   </div>
 </template>
 <script>
-import MainTab from '@/components/tabBottom/mainTab'
+import MainTab from '@/components/content/mainTab/mainTab'
 export default {
   components: {
     MainTab

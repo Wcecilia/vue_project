@@ -30,7 +30,8 @@ export default {
   },
   methods: {
     checkItem() {
-      this.$router.push(this.path);
+      //this.$router.push(this.path); 
+      this.$router.replace(this.path);
     }
   },
   computed: {
