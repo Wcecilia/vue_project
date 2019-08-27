@@ -22,5 +22,6 @@ export default {
     bottom: 0px;
     text-align: center;
     display: flex;
+    z-index: 99
 }
 </style>
